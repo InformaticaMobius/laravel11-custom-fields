@@ -1,4 +1,4 @@
-# Laravel Custom Fields2
+# Laravel11 Custom Fields
 
 > ⚠️ Warning: these docs are incomplete and may reference unsupported functions. This is a pre-release version that is not yet ready for production use.
 
