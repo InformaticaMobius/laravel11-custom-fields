@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\Tests\Support;
+namespace InformaticaMobius\Tests\Support;
 
-use Givebutter\LaravelCustomFields\Traits\HasCustomFieldResponses;
+use InformaticaMobius\LaravelCustomFields\Traits\HasCustomFieldResponses;
 use Illuminate\Database\Eloquent\Model;
 
 class SurveyResponse extends Model

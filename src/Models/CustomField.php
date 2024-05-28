@@ -1,9 +1,9 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\Models;
+namespace InformaticaMobius\LaravelCustomFields\Models;
 
-use Givebutter\LaravelCustomFields\Collections\CustomFieldCollection;
-use Givebutter\LaravelCustomFields\FieldTypes\FieldType;
+use InformaticaMobius\LaravelCustomFields\Collections\CustomFieldCollection;
+use InformaticaMobius\LaravelCustomFields\FieldTypes\FieldType;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

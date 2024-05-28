@@ -1,6 +1,6 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\FieldTypes;
+namespace InformaticaMobius\LaravelCustomFields\FieldTypes;
 
 use Illuminate\Validation\Rule;
 

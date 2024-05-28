@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\Tests\Support;
+namespace InformaticaMobius\Tests\Support;
 
-use Givebutter\LaravelCustomFields\Traits\HasCustomFields;
+use InformaticaMobius\LaravelCustomFields\Traits\HasCustomFields;
 use Illuminate\Database\Eloquent\Model;
 
 class HasCustomFieldsModel extends Model

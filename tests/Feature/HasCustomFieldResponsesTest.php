@@ -1,12 +1,12 @@
 <?php
 
-namespace Givebutter\Tests\Feature;
+namespace InformaticaMobius\Tests\Feature;
 
-use Givebutter\LaravelCustomFields\Models\CustomField;
-use Givebutter\LaravelCustomFields\Models\CustomFieldResponse;
-use Givebutter\Tests\Support\Survey;
-use Givebutter\Tests\Support\SurveyResponse;
-use Givebutter\Tests\TestCase;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\LaravelCustomFields\Models\CustomFieldResponse;
+use InformaticaMobius\Tests\Support\Survey;
+use InformaticaMobius\Tests\Support\SurveyResponse;
+use InformaticaMobius\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class HasCustomFieldResponsesTest extends TestCase

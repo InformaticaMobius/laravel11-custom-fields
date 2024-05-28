@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\FieldTypes;
+namespace InformaticaMobius\LaravelCustomFields\FieldTypes;
 
-use Givebutter\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
 
 abstract class FieldType
 {

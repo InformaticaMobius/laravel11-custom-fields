@@ -1,6 +1,6 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\Exceptions;
+namespace InformaticaMobius\LaravelCustomFields\Exceptions;
 
 use Exception;
 

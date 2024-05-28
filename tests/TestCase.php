@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\Tests;
+namespace InformaticaMobius\Tests;
 
-use Givebutter\LaravelCustomFields\LaravelCustomFieldsServiceProvider;
+use InformaticaMobius\LaravelCustomFields\LaravelCustomFieldsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Str;

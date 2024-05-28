@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\ResponseTypes;
+namespace InformaticaMobius\LaravelCustomFields\ResponseTypes;
 
-use Givebutter\LaravelCustomFields\Models\CustomFieldResponse;
+use InformaticaMobius\LaravelCustomFields\Models\CustomFieldResponse;
 
 abstract class ResponseType
 {

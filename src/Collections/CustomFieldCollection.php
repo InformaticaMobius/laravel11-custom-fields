@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\Collections;
+namespace InformaticaMobius\LaravelCustomFields\Collections;
 
-use Givebutter\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
 use Illuminate\Database\Eloquent\Collection;
 
 class CustomFieldCollection extends Collection

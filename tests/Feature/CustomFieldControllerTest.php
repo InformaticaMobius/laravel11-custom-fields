@@ -1,11 +1,11 @@
 <?php
 
-namespace Givebutter\Tests\Feature;
+namespace InformaticaMobius\Tests\Feature;
 
-use Givebutter\LaravelCustomFields\Models\CustomField;
-use Givebutter\Tests\Support\Survey;
-use Givebutter\Tests\Support\SurveyResponse;
-use Givebutter\Tests\TestCase;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\Tests\Support\Survey;
+use InformaticaMobius\Tests\Support\SurveyResponse;
+use InformaticaMobius\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -81,12 +81,12 @@ class CustomFieldControllerTest extends TestCase
         $this
             ->post("/surveys/{$survey->id}/responses", [
                 'custom_fields' => [
-                    $field->id => 'clint@givebutter.com',
+                    $field->id => 'clint@InformaticaMobius.com',
                 ],
             ])->assertOk();
 
         $this->assertSame(1, $field->responses()->count());
-        $this->assertSame('clint@givebutter.com', $field->responses()->first()->value);
+        $this->assertSame('clint@InformaticaMobius.com', $field->responses()->first()->value);
     }
 
 

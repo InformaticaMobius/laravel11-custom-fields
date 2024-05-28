@@ -1,8 +1,8 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\Models;
+namespace InformaticaMobius\LaravelCustomFields\Models;
 
-use Givebutter\LaravelCustomFields\ResponseTypes\ResponseType;
+use InformaticaMobius\LaravelCustomFields\ResponseTypes\ResponseType;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;

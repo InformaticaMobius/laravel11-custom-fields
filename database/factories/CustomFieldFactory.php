@@ -4,8 +4,8 @@ namespace Database\Factories;
 
 use Exception;
 use Faker\Provider\Lorem;
-use Givebutter\LaravelCustomFields\Enums\CustomFieldType;
-use Givebutter\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\LaravelCustomFields\Enums\CustomFieldType;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CustomFieldFactory extends Factory

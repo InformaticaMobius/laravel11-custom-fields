@@ -1,21 +1,17 @@
 {
-    "name": "jorgeperaza2000/laravel-custom-fields",
+    "name": "informatica_mobius/laravel-custom-fields",
     "description": "Laravel Custom Fields is a package that allows you to add custom fields to any Laravel model and store responses to those fields on any Laravel model.",
     "keywords": [
         "custom fields",
         "laravel"
     ],
-    "homepage": "https://github.com/jorgeperaza2000/laravel-custom-fields",
+    "homepage": "https://github.com/informatica_mobius/laravel-custom-fields",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Daniel Coulbourne",
-            "email": "daniel@tighten.co"
-        },
-        {
-            "name": "Liran Cohen",
-            "email": "liran@givebutter.com"
+            "name": "Jorge Peraza",
+            "email": "jorgeperaza2000@gmail.com"
         }
     ],
     "require": {
@@ -29,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Givebutter\\LaravelCustomFields\\": "src/"
+            "InformaticaMobius\\LaravelCustomFields\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Givebutter\\Tests\\": "tests/",
+            "InformaticaMobius\\Tests\\": "tests/",
             "Database\\": "database/"
         }
     },
@@ -52,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Givebutter\\LaravelCustomFields\\LaravelCustomFieldsServiceProvider"
+                "InformaticaMobius\\LaravelCustomFields\\LaravelCustomFieldsServiceProvider"
             ]
         }
     }

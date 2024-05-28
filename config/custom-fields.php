@@ -9,8 +9,8 @@ return [
     ],
 
     'models' => [
-        'custom-field' => \Givebutter\LaravelCustomFields\Models\CustomField::class,
-        'custom-field-response' => \Givebutter\LaravelCustomFields\Models\CustomFieldResponse::class,
+        'custom-field' => \InformaticaMobius\LaravelCustomFields\Models\CustomField::class,
+        'custom-field-response' => \InformaticaMobius\LaravelCustomFields\Models\CustomFieldResponse::class,
     ],
 
     /*
@@ -23,12 +23,12 @@ return [
     | register the corresponding response type below.
     */
     'fields' => [
-        'checkbox' => \Givebutter\LaravelCustomFields\FieldTypes\CheckboxFieldType::class,
-        'number' => \Givebutter\LaravelCustomFields\FieldTypes\NumberFieldType::class,
-        'radio' => \Givebutter\LaravelCustomFields\FieldTypes\RadioFieldType::class,
-        'select' => \Givebutter\LaravelCustomFields\FieldTypes\SelectFieldType::class,
-        'textarea' => \Givebutter\LaravelCustomFields\FieldTypes\TextareaFieldType::class,
-        'text' => \Givebutter\LaravelCustomFields\FieldTypes\TextFieldType::class,
+        'checkbox' => \InformaticaMobius\LaravelCustomFields\FieldTypes\CheckboxFieldType::class,
+        'number' => \InformaticaMobius\LaravelCustomFields\FieldTypes\NumberFieldType::class,
+        'radio' => \InformaticaMobius\LaravelCustomFields\FieldTypes\RadioFieldType::class,
+        'select' => \InformaticaMobius\LaravelCustomFields\FieldTypes\SelectFieldType::class,
+        'textarea' => \InformaticaMobius\LaravelCustomFields\FieldTypes\TextareaFieldType::class,
+        'text' => \InformaticaMobius\LaravelCustomFields\FieldTypes\TextFieldType::class,
     ],
 
     /*
@@ -41,12 +41,12 @@ return [
     | register the corresponding field type above.
     */
     'responses' => [
-        'checkbox' => \Givebutter\LaravelCustomFields\ResponseTypes\CheckboxResponseType::class,
-        'number' => \Givebutter\LaravelCustomFields\ResponseTypes\NumberResponseType::class,
-        'radio' => \Givebutter\LaravelCustomFields\ResponseTypes\RadioResponseType::class,
-        'select' => \Givebutter\LaravelCustomFields\ResponseTypes\SelectResponseType::class,
-        'textarea' => \Givebutter\LaravelCustomFields\ResponseTypes\TextareaResponseType::class,
-        'text' => \Givebutter\LaravelCustomFields\ResponseTypes\TextResponseType::class,
+        'checkbox' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\CheckboxResponseType::class,
+        'number' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\NumberResponseType::class,
+        'radio' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\RadioResponseType::class,
+        'select' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\SelectResponseType::class,
+        'textarea' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\TextareaResponseType::class,
+        'text' => \InformaticaMobius\LaravelCustomFields\ResponseTypes\TextResponseType::class,
     ],
 
     /*

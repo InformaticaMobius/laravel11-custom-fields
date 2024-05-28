@@ -1,9 +1,9 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\Traits;
+namespace InformaticaMobius\LaravelCustomFields\Traits;
 
-use Givebutter\LaravelCustomFields\Exceptions\FieldDoesNotBelongToModelException;
-use Givebutter\LaravelCustomFields\Exceptions\WrongNumberOfFieldsForOrderingException;
+use InformaticaMobius\LaravelCustomFields\Exceptions\FieldDoesNotBelongToModelException;
+use InformaticaMobius\LaravelCustomFields\Exceptions\WrongNumberOfFieldsForOrderingException;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Http\Request;

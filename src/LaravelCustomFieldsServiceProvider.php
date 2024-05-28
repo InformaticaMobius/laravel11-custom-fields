@@ -1,9 +1,9 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields;
+namespace InformaticaMobius\LaravelCustomFields;
 
-use Givebutter\LaravelCustomFields\FieldTypes\FieldType;
-use Givebutter\LaravelCustomFields\ResponseTypes\ResponseType;
+use InformaticaMobius\LaravelCustomFields\FieldTypes\FieldType;
+use InformaticaMobius\LaravelCustomFields\ResponseTypes\ResponseType;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelCustomFieldsServiceProvider extends ServiceProvider

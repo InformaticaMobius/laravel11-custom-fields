@@ -1,11 +1,11 @@
 <?php
 
-namespace Givebutter\Tests\Feature;
+namespace InformaticaMobius\Tests\Feature;
 
-use Givebutter\LaravelCustomFields\Collections\CustomFieldCollection;
-use Givebutter\LaravelCustomFields\Models\CustomField;
-use Givebutter\Tests\Support\Survey;
-use Givebutter\Tests\TestCase;
+use InformaticaMobius\LaravelCustomFields\Collections\CustomFieldCollection;
+use InformaticaMobius\LaravelCustomFields\Models\CustomField;
+use InformaticaMobius\Tests\Support\Survey;
+use InformaticaMobius\Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class CustomFieldTest extends TestCase

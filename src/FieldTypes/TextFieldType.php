@@ -1,6 +1,6 @@
 <?php
 
-namespace Givebutter\LaravelCustomFields\FieldTypes;
+namespace InformaticaMobius\LaravelCustomFields\FieldTypes;
 
 class TextFieldType extends FieldType
 {
