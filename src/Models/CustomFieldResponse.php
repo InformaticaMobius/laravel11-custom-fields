@@ -28,6 +28,10 @@ class CustomFieldResponse extends Model
      */
     protected $fillable = [
         'value',
+        'field_id',
+        'model_id',
+        'model_type',
+        'value_text'
     ];
 
     protected $casts = [
